@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>catch the bunny</title>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
+       <link rel="stylesheet" href="static/css/globals.css">
+    </head>
+    <body>
+       <div class="OverlayGameOver">
+        <div class="overlayBox center-on-page">
+            <div class="overlayBoxX"><span>&times;</span></div>
+            <span class="showEndScore"></span>
+            <button class="overlayButton ">play again</button>
+        </div>
+    </div>
+
+    <h1>Catch the bunny! </h1>
+    <div class="dashboard-container">
+        <span class="default-text">I am </span>
+            <select  id="selectInfo" class="default-text default-button" >
+              <option  value="a beginner" selected="selected" >a beginner</option>
+              <option  value="an expert">an expert</option>
+              <option  value="superman!">superman!</option>
+            </select>
+        <button  class= "default-button start-button">Play>></button>
+        <div class="timer"> <span>Time left: </span><span class="timerSec"></span></div> 
+        
+        <button  class= "default-button stop-button">stop</button>
+
+        <div class="score-container">
+            <span class="default-text scoreText">Score</span>
+            <span class="scoreBoard">0</span>
+        </div>
+    </div>
+    <div class="game">
+        <div class="hide-container container1">
+            <div class="hide">
+                <div class="hide-decor">
+                    <img src="./images/hide1.svg" alt="" >
+                </div>
+            </div>
+            <div class="bunny">
+                <!--<img  src="https://www.guidedogsvictoria.com.au/wp-content/uploads/2016/07/guide-dogs-mobility-300x300.jpg" alt="">-->
+                
+                <img class="explodeImage" src="./images/bunny1.svg" alt="">
+            </div>
+        </div>
+        <div class="hide-container container2">
+            <div class="hide">
+                <div class="hide-decor">
+                    <img src="./images/hide2.svg" alt="" >
+                </div>
+            </div>
+            <div class="bunny">
+                <img  class="explodeImage" src="./images/bunny2.svg" alt="">
+            </div>
+        </div>
+        <div class="hide-container container3">
+            <div class="hide">
+                <div class="hide-decor">
+                    <img  class="explodeImage" src="./images/hide3.svg" alt="" >
+                </div>
+            </div>
+            <div class="bunny">
+                <img  class="explodeImage" src="./images/bunny3.svg" alt="">
+            </div>
+        </div>
+        <div class="hide-container container4">
+            <div class="hide">
+                <div class="hide-decor">
+                    <img src="./images/hide4.svg" alt="" >
+                </div>
+            </div>
+            <div class="bunny">
+                <img  class="explodeImage" src="./images/bunny4.svg" alt="">
+            </div>
+        </div>
+        <div class="hide-container container5">
+            <div class="hide">
+                <div class="hide-decor">
+                    <img src="./images/hide5.svg" alt="" >
+                </div>
+            </div>
+            <div class="bunny">
+                <img  class="explodeImage" src="./images/bunny1.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+<!--<img id="target" src="https://www.guidedogsvictoria.com.au/wp-content/uploads/2016/07/guide-dogs-mobility-300x300.jpg" alt="">-->
+
+  
+
+
+  <audio src="./sounds/clap.wav"></audio>
+
+
+
+
+<!-- <script src="//code.jquery.com/jquery-3.1.0.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+
+
+<script src="js/imgexplode.min.js"></script>
+
+
+
+
+
+
+        <script src="static/js/app.bundle.js"></script>    
+    </body>
+</html>
